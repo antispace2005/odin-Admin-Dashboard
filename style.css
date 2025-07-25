@@ -120,6 +120,7 @@ form {
   height: 60px;
   width: 60px;
   border-radius: 50%;
+  cursor: pointer;
 }
 .profile-card {
   display: flex;
@@ -163,6 +164,7 @@ form {
   font-size: 18px;
   padding: 12px 20px;
   margin: 0px 8px;
+  cursor: pointer;
 }
 
 .actions button:hover {
@@ -179,7 +181,7 @@ form {
   background-color: var(--secondary-color);
   display: grid;
   grid-template-columns: 5fr 2fr;
-  grid-template-rows: 390px;
+  grid-template-rows: 400px;
   padding: 30px;
   gap: 20px;
 }
@@ -217,8 +219,6 @@ form {
 }
 .actions img {
   margin-left: 20px;
-}
-.actions img:hover {
   cursor: pointer;
 }
 
@@ -252,4 +252,38 @@ form {
 }
 .announcements .card:last-of-type {
   border-bottom: 0;
+}
+
+/* Trending */
+
+.trending img {
+  height: 50px;
+  border-radius: 50%;
+}
+
+.trending .card {
+  display: grid;
+  grid-template-columns: 70px auto;
+  margin-bottom: 20px;
+}
+.trending .title {
+  margin-bottom: 8px;
+  font-size: 20px;
+}
+.trending .cards {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 25px;
+}
+.announcements .trending .description {
+  font-size: 14px;
+  color: darkgray;
+}
+.trending .card:last-of-type {
+  margin-bottom: 0px;
+}
+
+.card {
+  cursor: pointer;
 }
