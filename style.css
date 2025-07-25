@@ -67,6 +67,42 @@
 
 /* Header */
 
+.header {
+  padding: 12px;
+  align-items: center;
+  gap: 12px;
+}
+
 .search {
   display: flex;
+  font-size: 20px;
+  height: 30px;
+  display: flex;
+  margin-right: 20px;
+}
+form {
+  flex: 1;
+}
+
+.search #search-bar {
+  border: 0;
+  text-indent: 12px;
+  border-radius: 15px;
+  flex: 1;
+  background-color: #e2e8f0;
+  max-width: 600px;
+}
+
+.alerts {
+  height: 30px;
+}
+.profile-card img {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+}
+.profile-card {
+  display: flex;
+  align-items: center;
+  gap: 8px;
 }
