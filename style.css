@@ -222,6 +222,13 @@ form {
   cursor: pointer;
 }
 
+.actions img:hover {
+  transform: rotate(5deg);
+}
+.actions img:active {
+  transform: rotate(10deg);
+}
+
 .actions {
   display: flex;
   justify-content: end;
